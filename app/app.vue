@@ -26,7 +26,7 @@
 
       <!-- Center: Logo -->
       <div class="flex-1 flex justify-center">
-        <img src="/images/hero.png" alt="chuttyevo" class="h-[47px] w-auto object-contain" style="max-width: 99px;" onerror="this.style.display='none';this.parentElement.innerHTML='<span class=\'font-serif italic text-[18px] text-black\'>chuttyevo</span>'" />
+        <img src="/images/logo.svg" alt="chuttyevo" class="h-[47px] w-auto object-contain" style="max-width: 99px;" />
       </div>
 
       <!-- Right: Heart + Bag -->
