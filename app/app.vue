@@ -130,7 +130,7 @@
     <!-- Brand Story Section -->
     <section class="px-4 py-0">
       <div class="flex flex-col gap-4">
-        <h3 class="font-sans text-[20px] font-medium leading-[24.38px] text-black">
+        <h3 class="font-serif italic text-[20px] font-medium leading-[24px] text-black">
           Срібні прикраси, що мають значення
         </h3>
         <div class="flex flex-col" style="gap: -6px;">
@@ -157,7 +157,7 @@
       </div>
       <div class="relative flex flex-col gap-8 pt-16" style="max-width: 323px; margin: 0 auto;">
         <div class="flex flex-col gap-3">
-          <h3 class="text-[31px] font-bold leading-[38.75px] text-black font-sans">
+          <h3 class="text-[31px] font-bold leading-[39px] text-black font-serif italic">
             -5% на чуттєві<br>прикраси за підписку<br>на розсилку
           </h3>
           <p class="text-[14px] leading-[24px] text-[#7d7d7d] font-sans font-normal" style="max-width: 303.87px;">

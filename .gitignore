@@ -23,3 +23,6 @@ logs
 .env.*
 !.env.example
 .vercel
+fetch_images.py
+fetch_logo.py
+fetch_logo_svg.py
