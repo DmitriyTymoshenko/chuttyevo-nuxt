@@ -56,16 +56,18 @@
         />
         <!-- Placeholder overlay in case image fails -->
         <div class="absolute inset-0 bg-[#F5F0EB] -z-10"></div>
+        <!-- Dark gradient for text readability -->
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
       </div>
       <!-- Text frame overlapping from bottom of image -->
-      <div class="absolute left-0 right-0 flex flex-col items-center top-[175px]">
+      <div class="absolute left-0 right-0 flex flex-col items-center top-[200px]">
         <div class="flex flex-col items-center gap-[16px] px-[16px] w-[343px] max-w-full">
           <h2
-            class="font-serif italic text-[24px] leading-[24px] uppercase text-black text-center w-[271px]"
+            class="font-serif italic text-[24px] leading-[24px] uppercase text-white text-center w-[271px] drop-shadow-lg"
           >
             Ми вже подумали за вас та підібрали готові набори
           </h2>
-          <p class="text-[14px] leading-[20px] text-black text-center font-sans w-[343px] max-w-full">
+          <p class="text-[14px] leading-[20px] text-white text-center font-sans w-[343px] max-w-full drop-shadow-md">
             Ми зібрали готові набори срібних прикрас, щоб вам не довелося витрачати час на вибір. Просто оберіть той, що відгукується вам.
           </p>
         </div>
@@ -73,7 +75,7 @@
     </section>
 
     <!-- Spacer for the overlapping text -->
-    <div class="h-[100px]"></div>
+    <div class="h-[160px]"></div>
 
     <!-- Breadcrumb -->
     <nav class="flex items-center px-[16px] h-[21px] mt-[8px]">
@@ -260,9 +262,9 @@
 
 <script setup lang="ts">
 const products = [
-  { sku: '40358с', name: 'Набір "Чорна конюшина"', price: '6 680₴', img: '/images/hero-banner.png' },
-  { sku: '40358с', name: 'Набір "Чорна конюшина"', price: '6 680₴', img: '/images/hero-banner.png' },
-  { sku: '40358с', name: 'Набір "Чорна конюшина"', price: '6 680₴', img: '/images/hero-banner.png' },
-  { sku: '40358с', name: 'Набір "Чорна конюшина"', price: '6 680₴', img: '/images/hero-banner.png' },
+  { sku: '40358с', name: 'Набір "Чорна конюшина"', price: '6 680₴', img: '/images/product-1.png' },
+  { sku: '40358с', name: 'Набір "Чорна конюшина"', price: '6 680₴', img: '/images/product-2.png' },
+  { sku: '40358с', name: 'Набір "Чорна конюшина"', price: '6 680₴', img: '/images/product-3.png' },
+  { sku: '40358с', name: 'Набір "Чорна конюшина"', price: '6 680₴', img: '/images/product-4.png' },
 ]
 </script>
