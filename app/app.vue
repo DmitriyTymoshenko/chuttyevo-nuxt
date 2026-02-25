@@ -50,7 +50,7 @@
     <section class="relative">
       <div class="w-full h-[400px] overflow-hidden">
         <img
-          src="/images/hero.png"
+          src="/images/hero-banner.png"
           alt="Срібні прикраси Chuttyevo"
           class="w-full h-full object-cover"
         />
@@ -260,9 +260,9 @@
 
 <script setup lang="ts">
 const products = [
-  { sku: '40358с', name: 'Набір "Чорна конюшина"', price: '6 680₴', img: '/images/hero.png' },
-  { sku: '40358с', name: 'Набір "Чорна конюшина"', price: '6 680₴', img: '/images/hero.png' },
-  { sku: '40358с', name: 'Набір "Чорна конюшина"', price: '6 680₴', img: '/images/hero.png' },
-  { sku: '40358с', name: 'Набір "Чорна конюшина"', price: '6 680₴', img: '/images/hero.png' },
+  { sku: '40358с', name: 'Набір "Чорна конюшина"', price: '6 680₴', img: '/images/hero-banner.png' },
+  { sku: '40358с', name: 'Набір "Чорна конюшина"', price: '6 680₴', img: '/images/hero-banner.png' },
+  { sku: '40358с', name: 'Набір "Чорна конюшина"', price: '6 680₴', img: '/images/hero-banner.png' },
+  { sku: '40358с', name: 'Набір "Чорна конюшина"', price: '6 680₴', img: '/images/hero-banner.png' },
 ]
 </script>
