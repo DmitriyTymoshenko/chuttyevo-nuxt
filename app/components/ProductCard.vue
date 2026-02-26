@@ -1,7 +1,7 @@
 <template>
-  <div class="flex flex-col gap-[8px] w-full">
+  <div class="flex flex-col gap-[8px] w-full shadow-[0px_4px_20px_rgba(0,0,0,0.05)] rounded-[4px] overflow-hidden">
     <!-- Product Image: 343x360 with carousel dots and action buttons -->
-    <div class="relative w-[343px] h-[360px] overflow-hidden rounded-[4px]">
+    <div class="relative w-full aspect-square overflow-hidden rounded-[4px]">
       <img
         v-if="imageSrc"
         :src="imageSrc"
@@ -61,7 +61,7 @@
     <!-- Product Info: sku, name, price -->
     <div class="flex flex-col gap-[8px]">
       <div class="flex flex-col gap-[4px]">
-        <span class="text-[12px] leading-[14.63px] text-[#7d7d7d] font-sans font-normal">{{ sku }}</span>
+        <span class="text-[12px] leading-[14.63px] text-[#999999] font-sans font-normal">{{ sku }}</span>
         <span class="text-[16px] leading-[24px] text-black font-sans font-medium">{{ name }}</span>
       </div>
       <span class="text-[18px] leading-[21.94px] text-black font-sans font-semibold">{{ price }}</span>

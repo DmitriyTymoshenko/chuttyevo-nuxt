@@ -108,7 +108,7 @@
       <div class="w-full h-[1px] bg-[#d9d9d9] mb-[40px]"></div>
 
       <!-- Product List - Single column, 343px wide, gap 24px -->
-      <div class="flex flex-col gap-[24px]">
+      <div class="grid grid-cols-2 gap-[24px]">
         <ProductCard
           v-for="(product, index) in products"
           :key="index"
