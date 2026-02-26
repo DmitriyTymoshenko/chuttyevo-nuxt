@@ -30,7 +30,7 @@
       </div>
 
       <!-- Right: Heart + Bag -->
-      <div class="flex items-center gap-[12px] w-[60px] justify-end">
+      <div class="flex items-center gap-[24px] justify-end">
         <button aria-label="Favorites" class="w-[24px] h-[24px]">
           <svg viewBox="0 0 24 24" fill="none" stroke="#080808" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" class="w-[24px] h-[24px]">
             <path d="M12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78 5.5 5.5 0 0 0-7.78 0L12 5.67z" />
