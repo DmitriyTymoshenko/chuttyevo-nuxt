@@ -150,7 +150,7 @@
     </section>
 
     <!-- Newsletter Section -->
-    <section class="mx-[16px] mt-[32px] mb-[32px] relative min-h-[821px]">
+    <section class="mt-[32px] mb-[32px] relative min-h-[821px] bg-[#F5F0EB] px-[16px]">
       <!-- Background decoration -->
       <div class="absolute inset-0 overflow-hidden">
         <div class="absolute w-[281.68px] h-[267.23px] opacity-10" style="top: 50%; left: 50%; transform: translate(-50%, -50%);">
@@ -166,7 +166,7 @@
             У кожному листі вас чекатимуть новинки, унікальні пропозиції та трішки натхнення.
           </p>
         </div>
-        <div class="flex flex-col gap-[28px] max-w-[273px]">
+        <div class="flex flex-col gap-[28px] w-full">
           <div class="flex flex-col gap-[18px]">
             <div class="flex flex-col gap-[12px]">
               <div class="bg-white h-[52px] flex items-center px-[16px] rounded-[4px] shadow-[0_1px_3px_rgba(0,0,0,0.06)]">
