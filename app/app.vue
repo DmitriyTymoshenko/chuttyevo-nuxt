@@ -63,7 +63,7 @@
       <div class="absolute left-0 right-0 flex flex-col items-center top-[200px]">
         <div class="flex flex-col items-center gap-[16px] px-[16px] w-[343px] max-w-full">
           <h2
-            class="font-serif italic text-[24px] leading-[24px] uppercase text-white text-center w-[271px] drop-shadow-lg"
+            class="font-serif italic font-semibold text-[24px] leading-[24px] uppercase text-white text-center w-[271px] drop-shadow-lg"
           >
             Ми вже подумали за вас та підібрали готові набори
           </h2>
@@ -132,7 +132,7 @@
     <!-- Brand Story Section -->
     <section class="px-[16px] py-0">
       <div class="flex flex-col gap-[16px]">
-        <h3 class="font-serif italic text-[20px] font-medium leading-[24px] text-black">
+        <h3 class="font-serif italic text-[20px] font-semibold leading-[24px] text-black">
           Срібні прикраси, що мають значення
         </h3>
         <div class="flex flex-col gap-[8px]">
@@ -159,7 +159,7 @@
       </div>
       <div class="relative flex flex-col gap-[32px] pt-[64px] mx-auto max-w-[323px]">
         <div class="flex flex-col gap-[12px]">
-          <h3 class="text-[31px] font-bold leading-[39px] text-black font-serif italic">
+          <h3 class="text-[31px] font-semibold leading-[39px] text-black font-serif italic">
             -5% на чуттєві<br>прикраси за підписку<br>на розсилку
           </h3>
           <p class="text-[14px] leading-[24px] text-[#7d7d7d] font-sans font-normal max-w-[303.87px]">
@@ -205,7 +205,7 @@
         <div class="flex flex-col gap-[8px]">
           <div class="w-full h-[1px] bg-[#eaeaea] mb-[8px]"></div>
           <div class="flex justify-center">
-            <span class="font-serif italic text-[24px] leading-[29.26px] text-black">chuttyevo</span>
+            <span class="font-serif italic font-semibold text-[24px] leading-[29.26px] text-black">chuttyevo</span>
           </div>
           <p class="text-[15px] leading-[18.29px] text-black font-sans text-center">+38 (063) 186 43 91</p>
           <p class="text-[15px] leading-[18.29px] text-black font-sans text-center">User@gmail.com</p>
