@@ -123,7 +123,7 @@
     <!-- View More Button -->
     <div class="flex justify-center py-[40px]">
       <button
-        class="border border-[#3f2023] rounded-[2px] text-[#3f2023] text-[14px] font-medium font-sans tracking-[0.02em] px-[16px] py-[12px] leading-[17.07px]"
+        class="border border-[#3f2023] rounded-[4px] text-[#3f2023] text-[14px] font-medium font-sans tracking-[0.02em] px-[16px] py-[12px] leading-[17.07px]"
       >
         Переглянути більше
       </button>
